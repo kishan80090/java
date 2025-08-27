@@ -4,7 +4,7 @@ public class switchcase {
         Scanner sc=new Scanner(System.in);
        System.out.println("Enter the choose number : ");
         int choose_no=sc.nextInt();
-        
+
         switch (choose_no) {
             case 1:
                 System.out.println("Your choose number 1");
@@ -12,7 +12,7 @@ public class switchcase {
                 case 2:    
                 System.out.println("Your choose number 2");
                 break;
-                case 3:
+                case 3: 
                 System.out.println("Your choose number 3");
                 break;
             default:
