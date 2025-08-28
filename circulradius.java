@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class circulradius {
 
     public static void main(String[] args) {
