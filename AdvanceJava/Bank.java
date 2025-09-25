@@ -22,7 +22,6 @@ public class Bank {
             balance += amount;
         } else {
             System.out.println("Not deposite");
-
         }
     }
     public void withdrow() {
