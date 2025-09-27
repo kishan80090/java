@@ -1,27 +1,20 @@
-public class youtest {
-int a,b,c;
-public youtest(int a,int b,int c){
-    this.a=a;
-    this.b=b;
-    this.c=c;
-    System.out.println(this);
-}
-public youtest currentobject(){
-    return this;
-}
-@Override
-public String toString(){
-return "Trangle = {"+"a= "+a+",b= "+b+",c= "+c+"}";
-} 
+public class youtest{
     public static void main(String[] args) {
-        youtest y1=new youtest(1, 2, 3);
-        System.out.println(y1);
-        youtest x=y1.currentobject();
-        x.a=2;
-        x.b=3;
-        System.out.println(y1);
-        System.out.println(x);
-        System.out.println(y1==x);
-        
+        int[] arr = {1, 2, 2, 3, 4, 1, 2, 3};
+        int n = arr.length;
+        boolean visited[] = new boolean[n];
+        for (int i = 0; i < n; i++) {
+            if (visited[i] == true)
+                continue;
+
+            int count = 1;
+            for (int j = i + 1; j < n; j++) {
+                if (arr[i] == arr[j]) {
+                    count++;
+                    visited[j] = true;
+                }
+            }
+            System.out.println("Element " + arr[i] + " occurs " + count + " times");
+        }
     }
 }
