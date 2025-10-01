@@ -8,7 +8,7 @@ public class youtest {
         map.put(2, "Rohit");
         map.put(3, "Sita");
 
-        System.out.println("Roll 2 = " + map.get(1));
+        System.out.println(map.get(3));
 
         for (Integer key : map.keySet()) {
             System.out.println("Roll " + key + " → " + map.get(key));
