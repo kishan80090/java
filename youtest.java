@@ -1,13 +1,17 @@
-public class youtest {
+import java.util.HashMap;
 
+public class youtest {
     public static void main(String[] args) {
-        int arr[]={1,2,3,4,5,6,7,68,7};
-        int value=8;
-        int count=0;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]==value)
-            count++;
+        HashMap<Integer, String> map = new HashMap<>();
+
+        map.put(1, "Amit");
+        map.put(2, "Rohit");
+        map.put(3, "Sita");
+
+        System.out.println("Roll 2 = " + map.get(1));
+
+        for (Integer key : map.keySet()) {
+            System.out.println("Roll " + key + " → " + map.get(key));
         }
-        System.out.println("Value : "+value+"\nCount : "+count);
     }
 }
