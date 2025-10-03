@@ -6,7 +6,7 @@ public class hashmap {
         map.put("fruit",4);
         map.put("bird",5);
         for(String key : map.keySet()){
-            System.out.println("Name : "+key+" : value : "+map.get(key));
+        System.out.println("Name : "+key+" : value : "+map.get(key));
         }
     }
 }
