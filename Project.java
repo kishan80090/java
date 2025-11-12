@@ -1,7 +1,9 @@
+import java.util.Scanner;
 public class Project {
-
+    
     public static void main(String[] args) {
-        
-        System.out.println("hellow");
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        System.out.println(n);
     }
 }
