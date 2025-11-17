@@ -13,5 +13,4 @@ public class People {
         People p1=new People("Ramesh", "Varanasi", "9559785600", "221002");
         System.out.println(p1);
     }
-    
 }

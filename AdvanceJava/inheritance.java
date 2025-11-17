@@ -1,5 +1,4 @@
 package AdvanceJava;
-
 class A {
     public A() {
         System.out.println("Zero parameter constructor in A");

@@ -1,5 +1,4 @@
 package AdvanceJava;
-
 public class Person {
     String name, address, mobile;
     int age;
@@ -12,6 +11,5 @@ public class Person {
     public String toString() {
         return "Name = " + name + ", Address = " + address + ", Age = " + age + ", Mobile = " + mobile;
     }
- 
-    }
+}
 

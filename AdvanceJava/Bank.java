@@ -1,20 +1,16 @@
 package AdvanceJava;
-
 import java.util.Scanner;
-
 public class Bank {
     Person customer;
     String account_no;
     int balance;
     Scanner scanner;
-
     public Bank(Person customer, String account_no, int balance) {
         this.customer = customer;
         this.account_no = account_no;
         this.balance = balance;
         scanner = new Scanner(System.in);
     }
-
     public void deposit() {
         System.out.print("Enter amount to deposit : ");
         int amount = Integer.parseInt(scanner.nextLine());
